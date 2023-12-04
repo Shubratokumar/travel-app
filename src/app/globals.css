@@ -18,10 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* background: #ffff; */
+}
+#login {
+  background-image: url(../../public/travelBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
